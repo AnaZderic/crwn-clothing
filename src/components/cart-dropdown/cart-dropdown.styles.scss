@@ -1,5 +1,5 @@
-
 .cart-dropdown-container {
+
     position: absolute;
     width: 240px;
     height: 340px;
@@ -12,6 +12,16 @@
     right: 40px;
     z-index: 5;
   
+    ::-webkit-scrollbar {
+      background: white;
+      width: 7px;
+    }
+     
+    ::-webkit-scrollbar-thumb {
+      background: lightgray;
+      border-radius: 5px;
+    }
+
     .empty-message {
       font-size: 18px;
       margin: 50px auto;
