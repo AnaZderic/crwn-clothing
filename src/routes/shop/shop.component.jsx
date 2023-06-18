@@ -4,7 +4,7 @@ import Category from '../category/category.component';
 
 import './shop.styles.scss';
 
-const shop = () => {
+const Shop = () => {
     return (
         <Routes>
             <Route index element={<CategoriesPreview />} />
@@ -15,4 +15,4 @@ const shop = () => {
     );
 };
 
-export default shop; 
+export default Shop; 
